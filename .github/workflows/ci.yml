@@ -29,5 +29,5 @@ jobs:
       - name: Update
         uses: distributhor/workflow-webhook
         with:
-          url: https://tedtroxell.com
+          url: https://pull.tedtroxell.com
           json: '{"apikey":"${{}}"}'
